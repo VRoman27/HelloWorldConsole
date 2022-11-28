@@ -1,7 +1,7 @@
 ﻿Console.Write("Введите имя:");
 string username = Console.ReadLine();
 
-if(username.ToLower == "денис")
+if(username.ToLower() == "денис")
 {
     Console.WriteLine("Денчик ушёл в металл!");
 }
